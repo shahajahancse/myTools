@@ -57,14 +57,13 @@
 .wiki-body {
     line-height: 1.8;
     background-color: #fff;
-    margin: 0 20px;
 }
 
 .wiki-img {
     width: 100px;
 }
 
-.form-control:focus {
+.wiki-body .searchInput .form-control:focus {
     border-color: none !important;
     box-shadow: none !important;
 }
@@ -78,7 +77,7 @@
     margin: 20px 0;
 }
 
-a {
+#searchResult .wikiTitle a {
     font-family: Tahoma, sans-serif;
     color: #0b1a90;
     text-decoration: none;
@@ -86,7 +85,7 @@ a {
     background-color: #fff6ea;
 }
 
-a:hover {
+#searchResult .wikiTitle a:hover {
     text-decoration: underline;
 }
 
@@ -97,4 +96,14 @@ a:hover {
 }
 /* end wikipedia */
 
+/* Word Count section */
+.word-content #wordCount {
+    border: none;
+}
+.word-content #wordCount:focus {
+    border: none;
+    box-shadow: none;
+    border-color: none;
+}
+/* end word count */
 

@@ -46,7 +46,7 @@ const generateSearchResultHTML = (results, searchTerm) => {
         const title = highlight(stripHtml(result.title), searchTerm);
         const snippet = highlight(stripHtml(result.snippet), searchTerm);
 
-        return `<article>
+        return `<article class="wikiTitle">
             <a href="https://en.wikipedia.org/?curid=${result.pageid}">
                 <h2>${title}</h2>
             </a>
