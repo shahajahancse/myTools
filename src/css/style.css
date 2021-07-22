@@ -213,3 +213,40 @@ blockquote {
         height: 32px;
     }
 }
+
+/* form */
+.forms {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgb(199 199 199 / 96%);
+    border-radius: 0.25rem;
+    box-shadow: #456;
+    border-top: none;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border-color: #dc3545;
+}
+
+.form-field.success input {
+    border-color: #28a745;
+}
+
+.form-field small {
+    color: #dc3545;
+}
+
+.form-control:focus {
+    border-color: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
