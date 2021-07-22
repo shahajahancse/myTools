@@ -250,3 +250,11 @@ blockquote {
     outline: 0 !important;
     box-shadow: none !important;
 }
+
+/* toggle form */
+#togglePassword {
+    position: relative;
+    right: 25px;
+    top: 6px;
+    z-index: 27;
+}
